@@ -1,6 +1,6 @@
 Name:           maven-ant-tasks
 Version:        2.1.1
-Release:        8
+Release:        10
 Summary:        Allow Maven artifact handling features to be used from within an Ant build
 
 Group:          Development/Java
