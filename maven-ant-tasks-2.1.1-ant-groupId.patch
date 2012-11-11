@@ -1,0 +1,20 @@
+diff -up maven-ant-tasks-2.1.1/pom.xml.ant-groupId maven-ant-tasks-2.1.1/pom.xml
+diff -up maven-ant-tasks-2.1.1/src/it/ant-run-plugin-with-ant-1.6/pom.xml.ant-groupId maven-ant-tasks-2.1.1/src/it/ant-run-plugin-with-ant-1.6/pom.xml
+--- maven-ant-tasks-2.1.1/src/it/ant-run-plugin-with-ant-1.6/pom.xml.ant-groupId	2010-07-19 22:36:30.000000000 -0600
++++ maven-ant-tasks-2.1.1/src/it/ant-run-plugin-with-ant-1.6/pom.xml	2010-12-07 13:57:13.189223154 -0700
+@@ -32,12 +32,12 @@
+         <version>1.2</version>
+         <dependencies>
+           <dependency>
+-            <groupId>ant</groupId>
++            <groupId>org.apache.ant</groupId>
+             <artifactId>ant</artifactId>
+             <version>1.6</version>
+           </dependency>
+           <dependency>
+-            <groupId>ant</groupId>
++            <groupId>org.apache.ant</groupId>
+             <artifactId>ant-launcher</artifactId>
+             <version>1.6</version>
+             <scope>runtime</scope>
+diff -up maven-ant-tasks-2.1.1/src/it/ant-run-plugin-with-ant-1.8.0/pom.xml.ant-groupId maven-ant-tasks-2.1.1/src/it/ant-run-plugin-with-ant-1.8.0/pom.xml
