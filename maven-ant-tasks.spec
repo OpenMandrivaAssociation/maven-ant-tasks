@@ -5,7 +5,7 @@ Summary:        Allow Maven artifact handling features to be used from within an
 
 Group:          Development/Java
 License:        ASL 2.0
-URL:            http://maven.apache.org/ant-tasks/index.html
+URL:            https://maven.apache.org/ant-tasks/index.html
 #The ant-tasks-in-ant-run-plugin test needs a dependency on ant-launcher
 #http://jira.codehaus.org/browse/MANTTASKS-208
 Source0:        http://www.apache.org/dist/maven/source/maven-ant-tasks-%{version}-src.zip
